@@ -1,10 +1,10 @@
 import { useState, useEffect, useMemo } from "react";
-import Header from "./components/Header.jsx";
-import TaskForm from "./components/TaskForm.jsx";
-import FilterBar from "./components/FilterBar.jsx";
-import TaskList from "./components/TaskList.jsx";
-import Calendar from "./components/Calendar.jsx";
-import Modal from "./components/Modal.jsx";
+import Header from "./Components/Header.jsx";
+import TaskForm from "./Components/TaskForm.jsx";
+import FilterBar from "./Components/FilterBar.jsx";
+import TaskList from "./Components/TaskList.jsx";
+import Calendar from "./Components/Calendar.jsx";
+import Modal from "./Components/Modal.jsx";
 import { todayKey } from "./utils/date.js";
 
 const seed = [
